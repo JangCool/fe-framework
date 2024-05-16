@@ -6,10 +6,7 @@ export default defineNuxtConfig({
     /**
      * 프로젝트에서 사용할 모듈 등록
      */
-    modules: [
-        '@vueuse/nuxt',
-        '@pinia/nuxt'
-    ],
+    modules: ['@vueuse/nuxt', '@pinia/nuxt', "@nuxtjs/tailwindcss"],
 
     components:[
         {
